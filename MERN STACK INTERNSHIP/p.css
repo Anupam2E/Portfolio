@@ -1,0 +1,58 @@
+img{
+    height: 300px;
+    width: 300px;
+    border-radius: 30%;
+    box-shadow: 10px 10px 5px lightblue;
+}
+img:hover{
+    transform: rotate(20deg);
+
+}
+.heading{
+    display: block;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+.heading:hover{
+    transform: scale(5);
+    background: linear-gradient(90deg,rgb(231, 239, 6),red);
+    color: transparent;
+    background-clip: text;
+}
+.container{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+#info{
+    margin: auto;
+    padding-left: 40px;
+}
+.list{
+    font-family: 'Courier New', Courier, monospace;
+}
+table{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    background-color: rgb(208, 190, 166);
+}
+#feedbACK{
+    width: 300px;
+    height: 100px;
+    border-radius: 10px;
+}
+label{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;   
+}
+td>h3:hover{
+    transform: scale(2);
+    padding-left: 70px;
+}
+td>h4:hover{
+    transform: scale(4);
+    padding-left: 100px;
+    background: linear-gradient(90deg,rgb(1, 20, 1),red);
+    color: transparent;
+    background-clip: text;
+}
